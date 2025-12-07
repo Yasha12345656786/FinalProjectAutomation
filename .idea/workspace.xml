@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Third commit (Login Tests Created)">
-      <change afterPath="$PROJECT_DIR$/tests/test_Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
-    </list>
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Fourth commit (All Login Tests Created)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_Login.test_ForgotPassword.executor": "Run",
     "Python tests.Python tests for test_Login.test_InvalidLogin.executor": "Run",
     "Python tests.Python tests for test_Login.test_Login.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidEmail.executor": "Run",
@@ -196,7 +191,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765117524492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="Fourth commit (All Login Tests Created)">
+      <option name="closed" value="true" />
+      <created>1765141684278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765141684278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +207,7 @@
     <MESSAGE value="First commit (Create User Test)" />
     <MESSAGE value="Second commit (All SignUp Tests Created)" />
     <MESSAGE value="Third commit (Login Tests Created)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third commit (Login Tests Created)" />
+    <MESSAGE value="Fourth commit (All Login Tests Created)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth commit (All Login Tests Created)" />
   </component>
 </project>
