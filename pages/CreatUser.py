@@ -1,7 +1,4 @@
 from selenium import webdriver
-from time import sleep
-import pyautogui
-import pytest
 from selenium.webdriver.common.by import By
 from pages.base_page import Base
 
@@ -94,12 +91,10 @@ class SignUp(Base):
         for i in range(3):
             self.typeru(self.password, pw0)
             self.typeru(self.conPassword, pw0)
-            t = self.checkClickability(self.btn3)
             self.clear(self.password)
             self.clear(self.conPassword)
             self.typeru(self.password, pw1)
             self.typeru(self.conPassword, pw1)
-            t = self.checkClickability(self.btn3)
             self.clear(self.password)
             self.clear(self.conPassword)
             self.typeru(self.password, pw2)

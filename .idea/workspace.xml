@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="First commit (Create User Test)">
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Second commit (All SignUp Tests Created)">
+      <change afterPath="$PROJECT_DIR$/pages/Login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CreateUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreatUser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CreatUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreatUser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,12 +176,21 @@
       <option name="project" value="LOCAL‎" />
       <updated>1764865509430</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="Second commit (All SignUp Tests Created)">
+      <option name="closed" value="true" />
+      <created>1765108967493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765108967493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit test" />
     <MESSAGE value="First commit (Create User Test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit (Create User Test)" />
+    <MESSAGE value="Second commit (All SignUp Tests Created)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit (All SignUp Tests Created)" />
   </component>
 </project>
