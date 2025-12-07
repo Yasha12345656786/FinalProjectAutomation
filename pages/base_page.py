@@ -1,4 +1,4 @@
-from selenium import EC
+from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import pyautogui
 import pytest
@@ -18,7 +18,7 @@ class Base:
         return self.wait.until(EC.visibility_of_element_located(locators))
 
     def wait_and_click(self, locators):
-        self.wait.until(EC.visibility_of_element_to_be_clickable(locators)).click()
+        self.wait.until(EC.element_to_be_clickable(locators)).click()
         sleep(1)
 
     def clicky(self, locators):
@@ -33,9 +33,14 @@ class Base:
 
 
     def getText(self, locators):
-        element = self.driver.find_element(locators)
+        element = self.driver.find_element(*locators)
         txt = element.text
         return txt
+
+    def getColor(self, locators):
+        element = self.driver.find_element(locators)
+        color = element.value_of_css_property("color")
+        return color.text
 
     def typeru(self, locators, text):
         element = self.driver.find_element(*locators)
@@ -49,3 +54,8 @@ class Base:
     def switch(self, locators):
         element = self.driver.find_element(*locators)
         self.driver.switch_to.frame(element)
+
+    def checkClickability(self, locators):
+        element = self.driver.find_element(*locators)
+        a = element.is_enabled()
+        return a
