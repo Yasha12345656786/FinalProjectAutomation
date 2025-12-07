@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Second commit (All SignUp Tests Created)">
-      <change afterPath="$PROJECT_DIR$/pages/Login.py" afterDir="false" />
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Third commit (Login Tests Created)">
+      <change afterPath="$PROJECT_DIR$/tests/test_Login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CreatUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreatUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_Login.test_InvalidLogin.executor": "Run",
+    "Python tests.Python tests for test_Login.test_Login.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidEmail.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidPassword.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidPresonalInfo.executor": "Run",
@@ -59,8 +63,8 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_createUser.test_InvalidPassword">
-    <configuration name="Python tests for test_createUser.test_InvalidEmail" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Login.test_ForgotPassword">
+    <configuration name="Python tests for test_Login.test_ForgotPassword" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +75,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createUser.test_InvalidEmail&quot;" />
+      <option name="_new_target" value="&quot;test_Login.test_ForgotPassword&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Login.test_InvalidLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Login.test_InvalidLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Login.test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Login.test_Login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -87,36 +121,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_createUser.test_InvalidPassword&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_createUser.test_InvalidPresonalInfo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProjectAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createUser.test_InvalidPresonalInfo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_createUser.test_InvalidUsername" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProjectAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createUser.test_InvalidUsername&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidPassword" />
-        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidUsername" />
-        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidEmail" />
+        <item itemvalue="Python tests.Python tests for test_Login.test_ForgotPassword" />
         <item itemvalue="Python tests.Python tests for test_createUser.test_createUser" />
-        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidPresonalInfo" />
+        <item itemvalue="Python tests.Python tests for test_Login.test_InvalidLogin" />
+        <item itemvalue="Python tests.Python tests for test_Login.test_Login" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +188,22 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765108967493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="Third commit (Login Tests Created)">
+      <option name="closed" value="true" />
+      <created>1765117524492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765117524492</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit test" />
     <MESSAGE value="First commit (Create User Test)" />
     <MESSAGE value="Second commit (All SignUp Tests Created)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit (All SignUp Tests Created)" />
+    <MESSAGE value="Third commit (Login Tests Created)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit (Login Tests Created)" />
   </component>
 </project>

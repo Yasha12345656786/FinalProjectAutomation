@@ -1,3 +1,4 @@
+from selenium.common import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import pyautogui
@@ -16,6 +17,13 @@ class Base:
 
     def wait_for_visibility(self, locators):
         return self.wait.until(EC.visibility_of_element_located(locators))
+
+    def wait_and_if_no_visability_continue(self, locators):
+        try:
+            return self.wait.until(EC.visibility_of_element_located(locators))
+        except TimeoutException as e:
+            return True
+
 
     def wait_and_click(self, locators):
         self.wait.until(EC.element_to_be_clickable(locators)).click()
