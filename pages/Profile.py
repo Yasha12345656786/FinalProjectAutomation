@@ -33,6 +33,9 @@ class Profile(Base):
     editProfilePicBtn = (By.XPATH, "//div[@class='UserProfileAvatarContainer_hoverIcon__E5qja UserProfileAvatarContainer_avatarEditIcon__mawXe']")
     profilePicOpt = (By.XPATH, "//div[@class='css-sm10zo']//div[41]")
     chosenProfilePic =  (By.XPATH, "//div[@class='css-sm10zo']//div[40]//span[@class='css-19ywb4']")
+    BdayBtn = (By.XPATH, "//label[contains(.,'Birthday')]")
+
+
 
 
     def changeBgPic(self):
@@ -82,6 +85,13 @@ class Profile(Base):
         self.clicky(self.optChangeCountry)
         rtn = self.getText(self.optChangeCountry)
         return rtn
+
+    def chnageBdayFromEditProfile(self):
+        self.wait_and_click(self.btn0)
+        self.wait_and_click(self.btn1)
+        self.clicky(self.editMyProfileBtn)
+        self.clicky(self.BdayBtn)
+
 
 
 

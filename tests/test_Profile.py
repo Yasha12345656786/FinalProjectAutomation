@@ -25,7 +25,7 @@ def test_changeUsernameFromEditProfile(set_up):
     l = Login(driver)
     change0 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
-    c = change0.changeUsernameFromEditProfile("test0003")
+    c = change0.changeUsernameFromEditProfile("test0004")
     assert c == "Username updated"
 
 
@@ -36,3 +36,10 @@ def test_changeCountryFromEditProfile(set_up):
     l.Login("pabalemy@forexnews.bg", "weeer23")
     rtn = change1.changeCountryFromEditProfile()
     assert  rtn == "Brazil"
+
+
+def test_chnageBdayFromEditProfile(set_up):
+    driver = set_up
+    l = Login(driver)
+    change2 = Profile(driver)
+    l.Login("pabalemy@forexnews.bg", "weeer23")
