@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import pyautogui
 import pytest
+from selenium.webdriver import ActionChains
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -46,7 +47,7 @@ class Base:
         return txt
 
     def getColor(self, locators):
-        element = self.driver.find_element(locators)
+        element = self.driver.find_element(*locators)
         color = element.value_of_css_property("color")
         return color.text
 
@@ -67,3 +68,10 @@ class Base:
         element = self.driver.find_element(*locators)
         a = element.is_enabled()
         return a
+
+    def MoveToElement(self, locators):
+        action = ActionChains(self.driver)
+        element = self.driver.find_element(*locators)
+        action.move_to_element(element)
+        sleep(10)
+
