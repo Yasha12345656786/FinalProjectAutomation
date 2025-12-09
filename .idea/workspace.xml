@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Fifth commit (Profile Tests Created)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Profile.py" afterDir="false" />
-    </list>
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Sixth commit (Profile Tests Updated)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +222,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765244512260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="Sixth commit (Profile Tests Updated)">
+      <option name="closed" value="true" />
+      <created>1765287308656</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765287308656</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +240,7 @@
     <MESSAGE value="Third commit (Login Tests Created)" />
     <MESSAGE value="Fourth commit (All Login Tests Created)" />
     <MESSAGE value="Fifth commit (Profile Tests Created)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fifth commit (Profile Tests Created)" />
+    <MESSAGE value="Sixth commit (Profile Tests Updated)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth commit (Profile Tests Updated)" />
   </component>
 </project>

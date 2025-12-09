@@ -43,3 +43,4 @@ def test_chnageBdayFromEditProfile(set_up):
     l = Login(driver)
     change2 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
+    change2.chnageBdayFromEditProfile()

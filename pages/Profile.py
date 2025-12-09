@@ -90,7 +90,7 @@ class Profile(Base):
         self.wait_and_click(self.btn0)
         self.wait_and_click(self.btn1)
         self.clicky(self.editMyProfileBtn)
-        self.clicky(self.BdayBtn)
+        self.wait_and_click(self.BdayBtn)
 
 
 
