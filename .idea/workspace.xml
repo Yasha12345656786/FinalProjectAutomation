@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Sixth commit (Profile Tests Updated)" />
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Seventh commit (Some small changes)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Profile.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +55,7 @@
     &quot;Python tests.Python tests for test_Profile.test_changeProfilePic.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Profile.test_changeUsernameFromEditBgPic.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Profile.test_changeUsernameFromEditProfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Profile.test_getProfilePage.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_createUser.test_InvalidEmail.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_createUser.test_InvalidPassword.executor&quot;: &quot;Run&quot;,
@@ -65,22 +69,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile">
-    <configuration name="Python tests for test_Login.test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProjectAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Login.test_Login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile">
     <configuration name="Python tests for test_Profile.test_changeBgPic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
@@ -141,13 +130,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Profile.test_chnageBdayFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Profile.test_chnageBdayFromEditProfile&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeBgPic" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeUsernameFromEditProfile" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfilePic" />
-        <item itemvalue="Python tests.Python tests for test_Login.test_Login" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +234,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765287308656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="Seventh commit (Some small changes)">
+      <option name="closed" value="true" />
+      <created>1765303246792</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765303246792</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,6 +253,7 @@
     <MESSAGE value="Fourth commit (All Login Tests Created)" />
     <MESSAGE value="Fifth commit (Profile Tests Created)" />
     <MESSAGE value="Sixth commit (Profile Tests Updated)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sixth commit (Profile Tests Updated)" />
+    <MESSAGE value="Seventh commit (Some small changes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seventh commit (Some small changes)" />
   </component>
 </project>

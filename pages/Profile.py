@@ -33,7 +33,14 @@ class Profile(Base):
     editProfilePicBtn = (By.XPATH, "//div[@class='UserProfileAvatarContainer_hoverIcon__E5qja UserProfileAvatarContainer_avatarEditIcon__mawXe']")
     profilePicOpt = (By.XPATH, "//div[@class='css-sm10zo']//div[41]")
     chosenProfilePic =  (By.XPATH, "//div[@class='css-sm10zo']//div[40]//span[@class='css-19ywb4']")
-    BdayBtn = (By.XPATH, "//label[contains(.,'Birthday')]")
+    bdayBtn = (By.XPATH, "//div[@class='SubDrawerEditProfileDrawer_formContainer__D7pH_']//div[5]//input")
+    monthNameBtn = (By.XPATH, "//div[@class='BirthdayInput_date__aojfy']//div[1]//div[1]//select")
+    monthNameOption = (By.XPATH, "//div[@class='BirthdayInput_date__aojfy']//div[1]//div[1]//select//option[12]")
+    dayInMonthBtn = (By.XPATH, "//div[@class='BirthdayInput_date__aojfy']//div[1]//div[2]//select")
+    dayInMonthOption = (By.XPATH, "//div[@class='BirthdayInput_date__aojfy']//div[1]//div[2]//select//option[29]")
+    yearBtn = (By.XPATH, "//div[@class='BirthdayInput_date__aojfy']//div[2]//div[1]//select")
+    yearOption = (By.XPATH,"//div[@class='BirthdayInput_date__aojfy']//div[2]//div[1]//select//option[87]")
+    confirmBdayChnages = (By.XPATH, "//div[@class='SubDrawerBirthdaySelector_submitButtonWrapper__iiibE']//button")
 
 
 
@@ -90,7 +97,18 @@ class Profile(Base):
         self.wait_and_click(self.btn0)
         self.wait_and_click(self.btn1)
         self.clicky(self.editMyProfileBtn)
-        self.wait_and_click(self.BdayBtn)
+        self.wait_and_click(self.bdayBtn)
+        self.clicky(self.monthNameBtn)
+        self.MoveToElement(self.monthNameOption)
+        self.wait_and_click(self.monthNameOption)
+        self.clicky(self.dayInMonthBtn)
+        self.MoveToElement(self.dayInMonthOption)
+        self.wait_and_click(self.dayInMonthOption)
+        self.wait_and_click(self.yearBtn)
+        self.MoveToElement(self.yearOption)
+        self.wait_and_click(self.yearOption)
+        self.clicky(self.confirmBdayChnages)
+
 
 
 
