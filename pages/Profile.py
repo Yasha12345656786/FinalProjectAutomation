@@ -146,6 +146,41 @@ class Profile(Base):
 
 
 
+    def changeProfileDetailsFromEditProfile(self, un):
+        self.wait_and_click(self.btn0)
+        self.wait_and_click(self.btn1)
+        self.clicky(self.editMyProfileBtn)
+        self.clicky(self.chnageBgPicBtn)
+        self.MoveToElement(self.bgPic0)
+        self.clicky(self.bgPic0)
+        self.clicky(self.rtnEditProfileBtn)
+        self.clicky(self.changePfpBtn)
+        self.MoveToElement(self.profilePicOpt)
+        self.clicky(self.profilePicOpt)
+        self.clicky(self.rtnEditProfileBtn)
+        self.clicky(self.changeUsernameBtn0)
+        self.typeru(self.changeUsernameInput0, un)
+        self.clicky(self.saveUsername0)
+        self.clicky(self.rtnEditProfileBtn)
+        self.clicky(self.selChangeCountry)
+        self.MoveToElement(self.optChangeCountry)
+        self.clicky(self.optChangeCountry)
+        self.wait_and_click(self.bdayBtn)
+        self.clicky(self.monthNameBtn)
+        self.MoveToElement(self.monthNameOption)
+        self.wait_and_click(self.monthNameOption)
+        self.clicky(self.dayInMonthBtn)
+        self.MoveToElement(self.dayInMonthOption)
+        self.wait_and_click(self.dayInMonthOption)
+        self.wait_and_click(self.yearBtn)
+        self.MoveToElement(self.yearOption)
+        self.wait_and_click(self.yearOption)
+        self.clicky(self.confirmBdayChnages)
+        self.wait_and_click(self.changeGenderBtn)
+        self.clicky(self.changeGenderOption)
+
+
+
 
 
 

@@ -67,3 +67,10 @@ def test_changeBgPicFromEditProfile(set_up):
     l.Login("pabalemy@forexnews.bg", "weeer23")
     rtn = change5.changeBgPicFromEditProfile()
     assert rtn == True
+
+def test_changeProfileDetailsFromEditProfile(set_up):
+    driver = set_up
+    l = Login(driver)
+    change6 = Profile(driver)
+    l.Login("pabalemy@forexnews.bg", "weeer23")
+    change6.changeProfileDetailsFromEditProfile("test0008")

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Eighth commit (Some small changes)">
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Ninth commit (Some small changes)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Profile.py" afterDir="false" />
@@ -55,6 +55,7 @@
     "Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile.executor": "Run",
     "Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile.executor": "Run",
     "Python tests.Python tests for test_Profile.test_changeProfileDeatilesFromEditBgPic.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile.executor": "Run",
     "Python tests.Python tests for test_Profile.test_changeProfilePic.executor": "Run",
     "Python tests.Python tests for test_Profile.test_changeProfilePicFromEditProfile.executor": "Run",
     "Python tests.Python tests for test_Profile.test_changeUsernameFromEditBgPic.executor": "Run",
@@ -74,7 +75,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_changeBgPicFromEditProfile">
+  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile">
     <configuration name="Python tests for test_Profile.test_changeBgPic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
@@ -120,6 +121,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Profile.test_changeProfileDetailsFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Profile.test_changeProfileDetailsFromEditProfile&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_Profile.test_changeProfilePicFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
@@ -135,28 +151,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_chnageBdayFromEditProfile.test_changeGenderFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProjectAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_chnageBdayFromEditProfile.test_changeGenderFromEditProfile&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeBgPicFromEditProfile" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfilePicFromEditProfile" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeBgPic" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.test_changeGenderFromEditProfile" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +256,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765390173289</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="Ninth commit (Some small changes)">
+      <option name="closed" value="true" />
+      <created>1765549549729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765549549729</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -268,6 +277,7 @@
     <MESSAGE value="Sixth commit (Profile Tests Updated)" />
     <MESSAGE value="Seventh commit (Some small changes)" />
     <MESSAGE value="Eighth commit (Some small changes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eighth commit (Some small changes)" />
+    <MESSAGE value="Ninth commit (Some small changes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ninth commit (Some small changes)" />
   </component>
 </project>
