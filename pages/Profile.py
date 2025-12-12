@@ -41,6 +41,10 @@ class Profile(Base):
     yearBtn = (By.XPATH, "//div[@class='BirthdayInput_date__aojfy']//div[2]//div[1]//select")
     yearOption = (By.XPATH,"//div[@class='BirthdayInput_date__aojfy']//div[2]//div[1]//select//option[87]")
     confirmBdayChnages = (By.XPATH, "//div[@class='SubDrawerBirthdaySelector_submitButtonWrapper__iiibE']//button")
+    changeGenderBtn = (By.XPATH, "//div[@class='SubDrawerEditProfileDrawer_formContainer__D7pH_']//div[6]//select")
+    changeGenderOption = (By.XPATH, "//div[@class='SubDrawerEditProfileDrawer_formContainer__D7pH_']//div[6]//select//option[4]")
+    changePfpBtn = (By.XPATH, "//button[@class='css-1pdtwxw']")
+    chnageBgPicBtn = (By.XPATH, "//button[@class='css-ro5j3z']")
 
 
 
@@ -110,8 +114,34 @@ class Profile(Base):
         self.clicky(self.confirmBdayChnages)
 
 
+    def changeGenderFromEditProfile(self):
+        self.wait_and_click(self.btn0)
+        self.wait_and_click(self.btn1)
+        self.clicky(self.editMyProfileBtn)
+        self.clicky(self.changeGenderBtn)
+        self.clicky(self.changeGenderOption)
 
+    def changeProfilePicFromEditProfile(self):
+        self.wait_and_click(self.btn0)
+        self.wait_and_click(self.btn1)
+        self.clicky(self.editMyProfileBtn)
+        self.clicky(self.changePfpBtn)
+        self.MoveToElement(self.profilePicOpt)
+        self.clicky(self.profilePicOpt)
+        self.wait_for_visibility(self.profilePicOpt)
+        rtn = self.wait_and_if_no_visability_continue(self.profilePicOpt)
+        return rtn
 
+    def changeBgPicFromEditProfile(self):
+        self.wait_and_click(self.btn0)
+        self.wait_and_click(self.btn1)
+        self.clicky(self.editMyProfileBtn)
+        self.clicky(self.chnageBgPicBtn)
+        self.MoveToElement(self.bgPic0)
+        self.clicky(self.bgPic0)
+        self.wait_for_visibility(self.bgPicSelected)
+        rtn = self.wait_and_if_no_visability_continue(self.chosenProfilePic)
+        return rtn
 
 
 

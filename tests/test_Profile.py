@@ -44,3 +44,26 @@ def test_chnageBdayFromEditProfile(set_up):
     change2 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
     change2.chnageBdayFromEditProfile()
+
+def test_changeGenderFromEditProfile(set_up):
+    driver = set_up
+    l = Login(driver)
+    change3 = Profile(driver)
+    l.Login("pabalemy@forexnews.bg", "weeer23")
+    change3.changeGenderFromEditProfile()
+
+def test_changeProfilePicFromEditProfile(set_up):
+    driver = set_up
+    l = Login(driver)
+    change4 = Profile(driver)
+    l.Login("pabalemy@forexnews.bg", "weeer23")
+    rtn = change4.changeProfilePicFromEditProfile()
+    assert rtn == True
+
+def test_changeBgPicFromEditProfile(set_up):
+    driver = set_up
+    l = Login(driver)
+    change5 = Profile(driver)
+    l.Login("pabalemy@forexnews.bg", "weeer23")
+    rtn = change5.changeBgPicFromEditProfile()
+    assert rtn == True
