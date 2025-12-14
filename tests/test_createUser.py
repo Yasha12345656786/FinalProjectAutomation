@@ -5,7 +5,7 @@ from tests.conftest import driver
 def test_createUser(set_up):
     driver = set_up
     s1 = SignUp(driver)
-    txt = s1.creatUser("pabalemy@forexnews.bg", "weeer23", "humanUserSwearToG")
+    txt = s1.creatUser("hiwigi9610@roa.com", "arrte1234", "humanUser0002")
     assert  txt == "Your account has been created!"
 
 def test_InvalidEmail(set_up):

@@ -73,4 +73,4 @@ def test_changeProfileDetailsFromEditProfile(set_up):
     l = Login(driver)
     change6 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
-    change6.changeProfileDetailsFromEditProfile("test0008")
+    change6.changeProfileDetailsFromEditProfile("test0009")
