@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Ninth commit (Some small changes)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Profile.py" afterDir="false" />
-    </list>
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,9 +43,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_AddFriend.test_AddFriend.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Login.test_ForgotPassword.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Login.test_InvalidLogin.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Login.test_Login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Logout.test_Logout.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Profile.test_changeBgPic.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Profile.test_changeBgPicFromEditProfile.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile.executor&quot;: &quot;Run&quot;,
@@ -74,8 +73,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile">
-    <configuration name="Python tests for test_Profile.test_changeBgPic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Login.test_Login">
+    <configuration name="Python tests for test_AddFriend.test_AddFriend" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,11 +85,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeBgPic&quot;" />
+      <option name="_new_target" value="&quot;test_AddFriend.test_AddFriend&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_changeBgPicFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Login.test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +100,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeBgPicFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_Login.test_Login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_changeGenderFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Logout.test_Logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +115,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeGenderFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_Logout.test_Logout&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -135,7 +134,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_changeProfilePicFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_createUser.test_createUser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,17 +145,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeProfilePicFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_createUser.test_createUser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Login.test_Login" />
+        <item itemvalue="Python tests.Python tests for test_AddFriend.test_AddFriend" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_createUser" />
+        <item itemvalue="Python tests.Python tests for test_Logout.test_Logout" />
         <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeBgPicFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfilePicFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeBgPic" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +270,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765562508012</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎-00013" summary="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)">
+      <option name="closed" value="true" />
+      <created>1765744392958</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL‎-00013" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765744392958</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,6 +292,7 @@
     <MESSAGE value="Seventh commit (Some small changes)" />
     <MESSAGE value="Eighth commit (Some small changes)" />
     <MESSAGE value="Ninth commit (Some small changes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ninth commit (Some small changes)" />
+    <MESSAGE value="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)" />
   </component>
 </project>
