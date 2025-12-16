@@ -10,7 +10,7 @@ class Login(Base):
 
     btn = (By.ID, "header-login-button")
     email = (By.ID, "email")
-    btn2 = (By.XPATH, "//div[@class='__className_f9243e css-1f20jmh']//button[@class='css-sgrktn']")
+    btn2 = (By.XPATH, "//div[4]//button[@type='submit']")
     password = (By.XPATH, "//input[@type='password']")
     btn3 = (By.XPATH, "//button[@type='submit']")
     iPass = (By.XPATH, "//div[@class='Drawer_errorContainer__HxIJd']")
@@ -22,6 +22,7 @@ class Login(Base):
     def Login(self, mail, pw):
         self.wait_and_click(self.btn)
         self.typeru(self.email, mail)
+        self.waitpls()
         self.clicky(self.btn2)
         self.wait_for_visibility(self.password)
         self.clicky(self.password)

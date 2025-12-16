@@ -26,6 +26,8 @@ class Base:
             return True
 
 
+    def waitpls(self):
+        sleep(10)
     def wait_and_click(self, locators):
         self.wait.until(EC.element_to_be_clickable(locators)).click()
         sleep(1)

@@ -18,7 +18,7 @@ def test_changeProfilePic(set_up):
     l1.Login("pabalemy@forexnews.bg", "weeer23")
     rtn = p2.changeProfilePic()
     assert rtn == True
-
+#assert by attribute of class verify it is changed
 
 def test_changeUsernameFromEditProfile(set_up):
     driver = set_up
