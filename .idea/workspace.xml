@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)">
-      <change afterPath="$PROJECT_DIR$/pages/Favorites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/AddFriend.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Friends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CreatUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreatUser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_AddFriend.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Friends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
-    </list>
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Eleventh commit Friends and Favorites added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,7 +296,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765912785829</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL‎-00016" summary="Eleventh commit Friends and Favorites added">
+      <option name="closed" value="true" />
+      <created>1766517521529</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL‎-00016" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1766517521529</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +319,7 @@
     <MESSAGE value="Eighth commit (Some small changes)" />
     <MESSAGE value="Ninth commit (Some small changes)" />
     <MESSAGE value="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)" />
+    <MESSAGE value="Eleventh commit Friends and Favorites added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eleventh commit Friends and Favorites added" />
   </component>
 </project>
