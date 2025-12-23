@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 
 
-class AddFriend(Base):
+class Friends(Base):
     def __init__(self, driver):
         self.driver: webdriver = driver
         super().__init__(driver)
@@ -12,7 +12,10 @@ class AddFriend(Base):
     addFriendTab = (By.XPATH, "//div[@data-testid='header-friends-button']//button")
     friendSearchBox = (By.ID, "friends-search-input")
     addFriendBtn = (By.XPATH, "//button[contains(.,'Add')]")
+    friendAdded = (By.XPATH, "//div[@id='__next']/div/div[4]/div/div[2]/div/div/div[2]")
     acceptFriendBtn = (By.XPATH, "//div[2]//div[2]//button[2]")
+    declineFriendBtn = (By.XPATH, "//div[2]//div[2]//button[1]")
+    offlineFriendsAmount = (By.XPATH, "//div[2]//div[3]//span[@class='css-10jnuj1']")
 
 
     def Addfriend(self, friendsUsername):
@@ -20,12 +23,21 @@ class AddFriend(Base):
         self.clicky(self.friendSearchBox)
         self.typeru(self.friendSearchBox, friendsUsername)
         self.wait_and_click(self.addFriendBtn)
+        self.waitpls()
+        return self.getText(self.friendAdded)
 
 
     def acceptFriendRequest(self):
         self.clicky(self.addFriendTab)
         self.wait_for_visibility(self.acceptFriendBtn)
         self.clicky(self.acceptFriendBtn)
+        return self.getText(self.offlineFriendsAmount)
+
+    def declineFriendRequest(self):
+        self.clicky(self.addFriendTab)
+        self.wait_for_visibility(self.acceptFriendBtn)
+        self.clicky(self.declineFriendBtn)
+        return self.getText(self.offlineFriendsAmount)
 
 
 

@@ -9,7 +9,7 @@ def test_changeBgPic(set_up):
     p1 = Profile(driver)
     l1.Login("pabalemy@forexnews.bg", "weeer23")
     rtn = p1.changeBgPic()
-    assert rtn == True
+    assert rtn == "css-1xlxqmr"
 
 def test_changeProfilePic(set_up):
     driver = set_up
@@ -50,7 +50,8 @@ def test_changeGenderFromEditProfile(set_up):
     l = Login(driver)
     change3 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
-    change3.changeGenderFromEditProfile()
+    rtn = change3.changeGenderFromEditProfile()
+    assert rtn == "Other"
 
 def test_changeProfilePicFromEditProfile(set_up):
     driver = set_up

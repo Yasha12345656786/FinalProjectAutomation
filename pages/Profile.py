@@ -19,7 +19,8 @@ class Profile(Base):
     btn1 = (By.XPATH, "//a[@class='MainDrawer_myProfileLink__isyho']")
     editBgPicbtn = (By.XPATH, "//div[@class='UserProfileHeader_hoverIcon___o4zm UserProfileHeader_headerEditIcon__TwM_N']")
     bgPic0 = (By.XPATH, "//div[@class='css-13giskk'][11]")
-    bgPicSelected = (By.XPATH, "//div[@class='css-13giskk'][11]//span[@class='css-19ywb4']z")
+    #bgPicSelected = (By.XPATH, "//div[@class='css-13giskk'][11]//span[@class='css-19ywb4']z")
+    bgPicSelected = (By.XPATH, "//div[@class='css-13giskk'][11]//span[@class='css-1xlxqmr']")
     extEditBgPic = (By.XPATH, "//button[@class='css-170mte2']")
     rtnEditProfileBtn = (By.XPATH, "//button[@class='css-14q163a']")
     changeUsernameBtn0 = (By.XPATH, "//div[@class='TextField_wrapper__rVcy9 TextField_hasOnClick__VuKxI']//input")
@@ -47,8 +48,6 @@ class Profile(Base):
     chnageBgPicBtn = (By.XPATH, "//button[@class='css-ro5j3z']")
 
 
-
-
     def changeBgPic(self):
         self.wait_and_click(self.btn0)
         self.wait_and_click(self.btn1)
@@ -56,7 +55,7 @@ class Profile(Base):
         self.MoveToElement(self.bgPic0)
         self.clicky(self.bgPic0)
         self.wait_for_visibility(self.bgPicSelected)
-        rtn = self.wait_and_if_no_visability_continue(self.bgPicSelected)
+        rtn = self.GetAttr(self. bgPicSelected)
         self.clicky(self.extEditBgPic)
         return rtn
 
@@ -72,8 +71,6 @@ class Profile(Base):
         self.MoveToElement(self.profilePicOpt)
         self.clicky(self.profilePicOpt)
         return self.wait_and_if_no_visability_continue(self.chosenProfilePic)
-
-
 
 
     def changeUsernameFromEditProfile(self, un):
@@ -112,6 +109,7 @@ class Profile(Base):
         self.MoveToElement(self.yearOption)
         self.wait_and_click(self.yearOption)
         self.clicky(self.confirmBdayChnages)
+        return self.getText(self.yearOption), self.getText(self.dayInMonthOption), self.getText(self.monthNameOption)
 
 
     def changeGenderFromEditProfile(self):
@@ -120,6 +118,8 @@ class Profile(Base):
         self.clicky(self.editMyProfileBtn)
         self.clicky(self.changeGenderBtn)
         self.clicky(self.changeGenderOption)
+        return self.getText(self.changeGenderBtn)
+
 
     def changeProfilePicFromEditProfile(self):
         self.wait_and_click(self.btn0)

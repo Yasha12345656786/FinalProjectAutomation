@@ -27,7 +27,7 @@ class Base:
 
 
     def waitpls(self):
-        sleep(10)
+        sleep(3)
     def wait_and_click(self, locators):
         self.wait.until(EC.element_to_be_clickable(locators)).click()
         sleep(1)
@@ -77,3 +77,6 @@ class Base:
         action.move_to_element(element)
         sleep(10)
 
+    def GetAttr(self, locators):
+        element = self.driver.find_element(*locators)
+        return element.get_attribute("class")

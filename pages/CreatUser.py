@@ -10,7 +10,7 @@ class SignUp(Base):
 
     btn = (By.ID, "header-login-button")
     email = (By.ID, "email")
-    btn2 = (By.XPATH, "//div[@class='__className_f9243e css-1f20jmh']//button[@class='css-sgrktn']")
+    btn2 = (By.XPATH, "//div[4]//button[@type='submit']")
     password = (By.XPATH, "//div[@class='TextField_wrapper__rVcy9 TextField_endAdorned__MdZ_v'][1]//input[@class='TextField_textField__XUqJS TextField_hasLabel__8fiac']")
     conPassword = (By.XPATH, "//div[@class='TextField_wrapper__rVcy9 TextField_endAdorned__MdZ_v'][2]//input[@class='TextField_textField__XUqJS TextField_hasLabel__8fiac']")
     terms =  (By.XPATH, "//label[@class='MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd Forms_acceptTncFormControl___w0G7 css-14ytr6n']//input")

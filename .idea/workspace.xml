@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)">
+      <change afterPath="$PROJECT_DIR$/pages/Favorites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/AddFriend.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Friends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CreatUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreatUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_AddFriend.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Friends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,41 +50,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_AddFriend.test_AddFriend.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Login.test_ForgotPassword.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Login.test_InvalidLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Login.test_Login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Logout.test_Logout.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeBgPic.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeBgPicFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeProfileDeatilesFromEditBgPic.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeProfilePic.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeProfilePicFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeUsernameFromEditBgPic.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_changeUsernameFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.test_changeGenderFromEditProfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Profile.test_getProfilePage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_createUser.test_InvalidEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_createUser.test_InvalidPassword.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_createUser.test_InvalidPresonalInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_createUser.test_InvalidUsername.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_createUser.test_createUser.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_AddFriend.test_AddFriend.executor": "Run",
+    "Python tests.Python tests for test_Friends.test_AddFriend.executor": "Run",
+    "Python tests.Python tests for test_Friends.test_acceptFriendRequest.executor": "Run",
+    "Python tests.Python tests for test_Login.test_ForgotPassword.executor": "Run",
+    "Python tests.Python tests for test_Login.test_InvalidLogin.executor": "Run",
+    "Python tests.Python tests for test_Login.test_Login.executor": "Run",
+    "Python tests.Python tests for test_Logout.test_Logout.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeBgPic.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeBgPicFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeProfileDeatilesFromEditBgPic.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeProfileDetailsFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeProfilePic.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeProfilePicFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeUsernameFromEditBgPic.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_changeUsernameFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.test_changeGenderFromEditProfile.executor": "Run",
+    "Python tests.Python tests for test_Profile.test_getProfilePage.executor": "Run",
+    "Python tests.Python tests for test_createUser.test_InvalidEmail.executor": "Run",
+    "Python tests.Python tests for test_createUser.test_InvalidPassword.executor": "Run",
+    "Python tests.Python tests for test_createUser.test_InvalidPresonalInfo.executor": "Run",
+    "Python tests.Python tests for test_createUser.test_InvalidUsername.executor": "Run",
+    "Python tests.Python tests for test_createUser.test_createUser.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_changeBgPic">
-    <configuration name="Python tests for test_AddFriend.test_AddFriend" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_Friends.test_AddFriend">
+    <configuration name="Python tests for test_Friends.test_AddFriend" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_AddFriend.test_AddFriend&quot;" />
+      <option name="_new_target" value="&quot;test_Friends.test_AddFriend&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Login.test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Friends.test_acceptFriendRequest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Login.test_Login&quot;" />
+      <option name="_new_target" value="&quot;test_Friends.test_acceptFriendRequest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Logout.test_Logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Profile.test_changeProfilePic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,22 +127,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Logout.test_Logout&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Profile.test_changeBgPic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProjectAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeBgPic&quot;" />
+      <option name="_new_target" value="&quot;test_Profile.test_changeProfilePic&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -154,13 +146,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_Friends.test_AddFriend" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_Friends.test_AddFriend&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeBgPic" />
-        <item itemvalue="Python tests.Python tests for test_Login.test_Login" />
-        <item itemvalue="Python tests.Python tests for test_AddFriend.test_AddFriend" />
+        <item itemvalue="Python tests.Python tests for test_Friends.test_AddFriend" />
+        <item itemvalue="Python tests.Python tests for test_Friends.test_acceptFriendRequest" />
         <item itemvalue="Python tests.Python tests for test_createUser.test_createUser" />
-        <item itemvalue="Python tests.Python tests for test_Logout.test_Logout" />
+        <item itemvalue="Python tests.Python tests for tests.test_Friends.test_AddFriend" />
+        <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfilePic" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +298,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1765840350594</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL‎-00015" summary="Tenth commit (Profile Tests almost set,  AddFriend and Logout were added)">
+      <option name="closed" value="true" />
+      <created>1765912785829</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL‎-00015" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1765912785829</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
