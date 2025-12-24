@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Eleventh commit Friends and Favorites added">
+      <change afterPath="$PROJECT_DIR$/pages/Search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_Search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Friends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_Friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Friends.py" afterDir="false" />
@@ -50,6 +52,7 @@
     "Python tests.Python tests for test_AddFriend.test_AddFriend.executor": "Run",
     "Python tests.Python tests for test_Friends.test_AddFriend.executor": "Run",
     "Python tests.Python tests for test_Friends.test_acceptFriendRequest.executor": "Run",
+    "Python tests.Python tests for test_Friends.test_cancelFriendRequest.executor": "Run",
     "Python tests.Python tests for test_Friends.test_declineFriendRequest.executor": "Run",
     "Python tests.Python tests for test_Login.test_ForgotPassword.executor": "Run",
     "Python tests.Python tests for test_Login.test_InvalidLogin.executor": "Run",
@@ -68,6 +71,7 @@
     "Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.executor": "Run",
     "Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile.test_changeGenderFromEditProfile.executor": "Run",
     "Python tests.Python tests for test_Profile.test_getProfilePage.executor": "Run",
+    "Python tests.Python tests for test_Search.test_searchGame.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidEmail.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidPassword.executor": "Run",
     "Python tests.Python tests for test_createUser.test_InvalidPresonalInfo.executor": "Run",
@@ -80,7 +84,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Friends.test_declineFriendRequest">
+  <component name="RunManager" selected="Python tests.Python tests for test_Search.test_searchGame">
     <configuration name="Python tests for test_Friends.test_AddFriend" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
@@ -111,6 +115,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Friends.test_cancelFriendRequest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Friends.test_cancelFriendRequest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_Friends.test_declineFriendRequest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
@@ -126,7 +145,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_createUser.test_createUser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Search.test_searchGame" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,32 +156,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createUser.test_createUser&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_Friends.test_AddFriend" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProjectAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_Friends.test_AddFriend&quot;" />
+      <option name="_new_target" value="&quot;test_Search.test_searchGame&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Search.test_searchGame" />
+        <item itemvalue="Python tests.Python tests for test_Friends.test_cancelFriendRequest" />
         <item itemvalue="Python tests.Python tests for test_Friends.test_declineFriendRequest" />
         <item itemvalue="Python tests.Python tests for test_Friends.test_acceptFriendRequest" />
         <item itemvalue="Python tests.Python tests for test_Friends.test_AddFriend" />
-        <item itemvalue="Python tests.Python tests for test_createUser.test_createUser" />
-        <item itemvalue="Python tests.Python tests for tests.test_Friends.test_AddFriend" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +329,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1766517835386</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL‎-00019" summary="Eleventh commit Friends and Favorites added">
+      <option name="closed" value="true" />
+      <created>1766578105209</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL‎-00019" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1766578105210</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

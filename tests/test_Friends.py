@@ -30,3 +30,12 @@ def test_declineFriendRequest(set_up):
     l.Login("hiwigitsa9610@roa.com", "arrteads1234")
     rtn, brtn = af.declineFriendRequest()
     assert brtn == rtn
+
+
+def test_cancelFriendRequest(set_up):
+    driver = set_up
+    l = Login(driver)
+    af = Friends(driver)
+    l.Login("hiwigitsa9610@roa.com", "arrteads1234")
+    rtn = af.cancelSentFriendRequest("humanUser0000")
+    assert rtn == "Invite your friends"

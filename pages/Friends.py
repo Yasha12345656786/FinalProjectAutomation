@@ -16,6 +16,8 @@ class Friends(Base):
     acceptFriendBtn = (By.XPATH, "//div[2]//div[2]//button[2]")
     declineFriendBtn = (By.XPATH, "//div[2]//div[2]//button[1]")
     offlineFriendsAmount = (By.XPATH, "//div[2]//div[3]//span[@class='css-10jnuj1']")
+    cancelFriendRequest = (By.XPATH, "//button[contains(.,'Cancel')]")
+    noFriendRequests = (By.XPATH, "//div[2]//div[2][contains(.,'Invite your friends')]")
 
 
     def Addfriend(self, friendsUsername):
@@ -44,3 +46,12 @@ class Friends(Base):
 
 
 
+    def cancelSentFriendRequest(self, friendsUsername):
+        self.clicky(self.addFriendTab)
+        self.clicky(self.friendSearchBox)
+        self.typeru(self.friendSearchBox, friendsUsername)
+        self.wait_and_click(self.addFriendBtn)
+        self.waitpls()
+        self.clicky(self.cancelFriendRequest)
+        self.waitpls()
+        return self.getText(self.noFriendRequests)
