@@ -28,5 +28,5 @@ def test_declineFriendRequest(set_up):
     l = Login(driver)
     af = Friends(driver)
     l.Login("hiwigitsa9610@roa.com", "arrteads1234")
-    rtn = af.declineFriendRequest()
-    assert int(rtn) == 0
+    rtn, brtn = af.declineFriendRequest()
+    assert brtn == rtn

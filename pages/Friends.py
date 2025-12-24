@@ -34,10 +34,13 @@ class Friends(Base):
         return self.getText(self.offlineFriendsAmount)
 
     def declineFriendRequest(self):
+        brtn = int(self.getText(self.offlineFriendsAmount))
         self.clicky(self.addFriendTab)
         self.wait_for_visibility(self.acceptFriendBtn)
         self.clicky(self.declineFriendBtn)
-        return self.getText(self.offlineFriendsAmount)
+        self.waitpls()
+        rtn = int(self.getText(self.offlineFriendsAmount))
+        return rtn, brtn
 
 
 
