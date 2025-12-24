@@ -25,3 +25,5 @@ class Search(Base):
         return self.getText(self.gameName)
 
 
+    def multitask(self):
+        return
