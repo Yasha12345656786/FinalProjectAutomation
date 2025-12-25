@@ -15,6 +15,9 @@ class Favorites(Base):
     def AddGameToFvaorites(self):
         self.clicky(self.game0)
         self.switch(self.gameFrame)
+        self.waitpls()
         self.clicky(self.favBtn)
         rtn = self.GetAttr(self.favBtn)
         return rtn
+
+    def RemoveGameFromFavorites(self):
