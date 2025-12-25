@@ -23,5 +23,5 @@ class Search(Base):
         self.wait_for_visibility(self.game0)
         self.clicky(self.game0)
         self.waitpls()
-        #return self.getText(self.gameName)
-        return "Mario"
+        return self.getText(self.gameName)
+
