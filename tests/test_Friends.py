@@ -1,9 +1,13 @@
+import allure
+import pytest
+
 from tests.conftest import driver, set_up
 from pages.Login import Login
 from pages.Logout import Logout
 from pages.Friends import Friends
 
-
+@pytest.mark.Addfriend
+@allure.suite("Addfriend")
 def test_AddFriend(set_up):
     driver = set_up
     l = Login(driver)
@@ -13,7 +17,8 @@ def test_AddFriend(set_up):
     assert rtn == "No results found"
 
 
-
+@pytest.mark.Addfriend
+@allure.suite("Addfriend")
 def test_acceptFriendRequest(set_up):
     driver = set_up
     l = Login(driver)
@@ -22,7 +27,8 @@ def test_acceptFriendRequest(set_up):
     rtn = af.acceptFriendRequest()
     assert int(rtn) > 0
 
-
+@pytest.mark.Addfriend
+@allure.suite("Addfriend")
 def test_declineFriendRequest(set_up):
     driver = set_up
     l = Login(driver)
@@ -31,7 +37,8 @@ def test_declineFriendRequest(set_up):
     rtn, brtn = af.declineFriendRequest()
     assert brtn == rtn
 
-
+@pytest.mark.Addfriend
+@allure.suite("Addfriend")
 def test_cancelFriendRequest(set_up):
     driver = set_up
     l = Login(driver)

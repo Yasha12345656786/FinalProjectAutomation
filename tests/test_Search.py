@@ -1,8 +1,12 @@
+import allure
+import pytest
+
 from tests.conftest import driver, set_up
 from pages.Login import Login
 from pages.Search import Search
 
-
+@pytest.mark.Search
+@allure.suite("Search")
 def test_searchGame(set_up):
     driver = set_up
     l = Login(driver)
