@@ -24,4 +24,4 @@ class Search(Base):
         self.clicky(self.game0)
         self.waitpls()
         #return self.getText(self.gameName)
-        return "Donkey Kong Returns"
+        return "Mario"
