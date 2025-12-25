@@ -46,6 +46,8 @@ class Profile(Base):
     changeGenderOption = (By.XPATH, "//div[@class='SubDrawerEditProfileDrawer_formContainer__D7pH_']//div[6]//select//option[4]")
     changePfpBtn = (By.XPATH, "//button[@class='css-1pdtwxw']")
     chnageBgPicBtn = (By.XPATH, "//button[@class='css-ro5j3z']")
+    verifyBday = (By.XPATH, "//input[@value='November 28, 1940']")
+
 
 
     def changeBgPic(self):
@@ -109,7 +111,7 @@ class Profile(Base):
         self.MoveToElement(self.yearOption)
         self.wait_and_click(self.yearOption)
         self.clicky(self.confirmBdayChnages)
-        return self.getText(self.yearOption), self.getText(self.dayInMonthOption), self.getText(self.monthNameOption)
+        return self.GetAttrValue(self.bdayBtn)
 
 
     def changeGenderFromEditProfile(self):

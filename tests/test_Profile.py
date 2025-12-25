@@ -53,7 +53,8 @@ def test_chnageBdayFromEditProfile(set_up):
     l = Login(driver)
     change2 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
-    change2.chnageBdayFromEditProfile()
+    rtn = change2.chnageBdayFromEditProfile()
+    assert rtn == 'November 28, 1940'
 
 @pytest.mark.Profile
 @allure.suite("Profile")

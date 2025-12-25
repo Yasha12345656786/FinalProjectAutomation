@@ -82,6 +82,10 @@ class Base:
         action.key_down(Keys.ENTER)
         action.key_up(Keys.ENTER)
 
-    def GetAttr(self, locators):
+    def GetAttrClass(self, locators):
         element = self.driver.find_element(*locators)
         return element.get_attribute("class")
+
+    def GetAttrValue(self, locators):
+        element = element = self.driver.find_element(*locators)
+        return element.get_attribute("value")
