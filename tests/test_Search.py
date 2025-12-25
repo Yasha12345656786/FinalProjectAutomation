@@ -10,3 +10,4 @@ def test_searchGame(set_up):
     l.Login("hiwigi9610@roastic.com", "wttew12445")
     rtn = s.searchForGame("Mario")
     assert rtn == "Mario"
+
