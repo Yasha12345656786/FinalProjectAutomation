@@ -8,5 +8,5 @@ def test_searchGame(set_up):
     l = Login(driver)
     s = Search(driver)
     l.Login("hiwigi9610@roastic.com", "wttew12445")
-    rtn = s.searchForGame()
+    rtn = s.searchForGame("Mario")
     assert rtn == "Mario"

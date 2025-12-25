@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import pyautogui
 import pytest
-from selenium.webdriver import ActionChains
+from selenium.webdriver import ActionChains, Keys
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -76,6 +76,11 @@ class Base:
         element = self.driver.find_element(*locators)
         action.move_to_element(element)
         sleep(10)
+
+    def PressEnter(self):
+        action = ActionChains(self.driver)
+        action.key_down(Keys.ENTER)
+        action.key_up(Keys.ENTER)
 
     def GetAttr(self, locators):
         element = self.driver.find_element(*locators)

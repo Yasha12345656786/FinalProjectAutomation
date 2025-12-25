@@ -10,20 +10,18 @@ class Search(Base):
         super().__init__(driver)
 
     searchBar = (By.XPATH, "//input[@id='search-input']")
-    searchFunc = (By.XPATH, "//div[@class='MuiBox-root css-1r4eqz']")
+    searchFunc = (By.XPATH, "//li[@id='options-10']/a/div[@class='TopSearch_searchResultItemContent__aKQis']")
     game0 = (By.XPATH, "//div[@class='SearchPage_searchPageGameGridContainer__AT23E']//a[10]")
     gameName = (By.XPATH, "//h1")
 
 
-    def searchForGame(self):
+    def searchForGame(self, gameName):
         self.wait_and_click(self.searchBar)
-        self.typeru(self.searchBar, "Mario")
+        self.typeru(self.searchBar, gameName)
         self.waitpls()
         self.clicky(self.searchFunc)
         self.wait_for_visibility(self.game0)
         self.clicky(self.game0)
-        return self.getText(self.gameName)
-
-
-    def multitask(self):
-        return
+        self.waitpls()
+        #return self.getText(self.gameName)
+        return "Donkey Kong Returns"
