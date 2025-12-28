@@ -33,7 +33,7 @@ def test_changeUsernameFromEditProfile(set_up):
     l = Login(driver)
     change0 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
-    c = change0.changeUsernameFromEditProfile("test0004")
+    c = change0.changeUsernameFromEditProfile("test0088")
     assert c == "Username updated"
 
 @pytest.mark.Profile
@@ -74,7 +74,7 @@ def test_changeProfilePicFromEditProfile(set_up):
     change4 = Profile(driver)
     l.Login("pabalemy@forexnews.bg", "weeer23")
     rtn = change4.changeProfilePicFromEditProfile()
-    assert rtn == True
+    assert rtn == 'css-1kayl5r'
 
 @pytest.mark.Profile
 @allure.suite("Profile")

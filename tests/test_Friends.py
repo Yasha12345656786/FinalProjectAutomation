@@ -13,7 +13,7 @@ def test_AddFriend(set_up):
     l = Login(driver)
     af = Friends(driver)
     l.Login("hiwigi9610@roastic.com", "wttew12445")
-    rtn = af.Addfriend("humanUser0003")
+    rtn = af.Addfriend("jmamaii12")
     assert rtn == "No results found"
 
 

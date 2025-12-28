@@ -16,7 +16,7 @@ class Login(Base):
     iPass = (By.XPATH, "//div[@class='Drawer_errorContainer__HxIJd']")
     forgotPass = (By.XPATH, "//button[contains(.,'Forgot')]")
     sendMail = (By.XPATH, "//button[contains(.,'Send')]")
-    mailSent = (By.XPATH, "//div[@class='Drawer_titleContainer__Zf5_r']")
+    mailSent = (By.XPATH, "//div[2]//div[1]//div[1]//div//div[contains(.,'Mail sent!')]")
 
 
     def Login(self, mail, pw):

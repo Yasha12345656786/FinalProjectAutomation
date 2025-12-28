@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Twelveth commit Friends and Favorites added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CreatUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreatUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Favorites.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Favorites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_Friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Friends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_Profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +90,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile">
-    <configuration name="Python tests for test_Profile.test_changeCountryFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_createUser.test_InvalidPresonalInfo">
+    <configuration name="Python tests for test_createUser.test_InvalidEmail" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +102,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeCountryFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_createUser.test_InvalidEmail&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_changeGenderFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_createUser.test_InvalidPassword" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +117,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeGenderFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_createUser.test_InvalidPassword&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_changeProfilePic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_createUser.test_InvalidPresonalInfo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,11 +132,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeProfilePic&quot;" />
+      <option name="_new_target" value="&quot;test_createUser.test_InvalidPresonalInfo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_changeUsernameFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_createUser.test_InvalidUsername" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +147,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_changeUsernameFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_createUser.test_InvalidUsername&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Profile.test_chnageBdayFromEditProfile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_createUser.test_createUser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProjectAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,17 +162,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Profile.test_chnageBdayFromEditProfile&quot;" />
+      <option name="_new_target" value="&quot;test_createUser.test_createUser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeGenderFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_chnageBdayFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeCountryFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeUsernameFromEditProfile" />
-        <item itemvalue="Python tests.Python tests for test_Profile.test_changeProfilePic" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidPresonalInfo" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidUsername" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidPassword" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_InvalidEmail" />
+        <item itemvalue="Python tests.Python tests for test_createUser.test_createUser" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +407,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1766668983807</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL‎-00028" summary="Twelveth commit Friends and Favorites added">
+      <option name="closed" value="true" />
+      <created>1766677496206</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL‎-00028" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1766677496206</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -21,7 +21,7 @@ class Favorites(Base):
         self.switch(self.gameFrame)
         self.waitpls()
         self.clicky(self.addToFav)
-        rtn = self.GetAttr(self.addToFav)
+        rtn = self.GetAttrClass(self.addToFav)
         return rtn
 
     def RemoveGameFromFavorites(self):

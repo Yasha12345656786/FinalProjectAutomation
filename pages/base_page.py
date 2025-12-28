@@ -19,12 +19,21 @@ class Base:
     def wait_for_visibility(self, locators):
         return self.wait.until(EC.visibility_of_element_located(locators))
 
+    def wait_for_visibility1(self, locators):
+        return self.wait.until(EC.visibility_of_element_located(*locators))
+
     def wait_and_if_no_visability_continue(self, locators):
         try:
             return self.wait.until(EC.visibility_of_element_located(locators))
         except TimeoutException as e:
             return True
 
+    def wait_and_if_no_visability_continue1(self, locators):
+        try:
+            self.wait.until(EC.visibility_of_element_located(*locators))
+            return False
+        except TimeoutException as e:
+            return True
 
     def waitpls(self):
         sleep(3)

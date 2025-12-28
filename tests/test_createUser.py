@@ -9,7 +9,7 @@ from tests.conftest import driver
 def test_createUser(set_up):
     driver = set_up
     s1 = SignUp(driver)
-    txt = s1.creatUser("hiwigitsa9610@roa.com", "arrteads1234", "humanUser0004")
+    txt = s1.creatUser("hiwigitsae9w610@roa.com", "arrteawdes1234", "humanUser0011")
     assert  txt == "Your account has been created!"
 @pytest.mark.CreateUser
 @allure.suite("CreateUser")
