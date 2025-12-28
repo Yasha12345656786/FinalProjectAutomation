@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Twelveth commit Friends and Favorites added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_createUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_createUser.py" afterDir="false" />
-    </list>
+    <list default="true" id="26cdc956-29ea-4e00-abf7-e87b51bc4e7e" name="Changes" comment="Twelveth commit Friends and Favorites added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -416,7 +413,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1766901813650</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL‎-00030" summary="Twelveth commit Friends and Favorites added">
+      <option name="closed" value="true" />
+      <created>1766928137572</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL‎-00030" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1766928137572</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
